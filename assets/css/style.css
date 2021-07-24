@@ -34,6 +34,10 @@ input:valid~label {
     color: #2196f3;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 input:focus~.bar:before {
     width: 100%;
 }
@@ -184,6 +188,7 @@ label {
     padding: 7px 8px 7px 8px;
     border-radius: .25rem;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .social-button>img {
